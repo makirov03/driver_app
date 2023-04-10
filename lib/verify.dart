@@ -58,7 +58,7 @@ class _MyVerifyState extends State<MyVerify> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/img1.png',
+                'assets/img/img1.png',
                 width: 150,
                 height: 150,
               ),
@@ -101,9 +101,8 @@ class _MyVerifyState extends State<MyVerify> {
                     style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.green.shade600,
                         shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(10))),
                     onPressed: () {},
-                    child: const Text("Tassykla")),
+                    child: const Text("Tassykla"),),
               ),
               Row(
                 children: [
@@ -118,7 +117,6 @@ class _MyVerifyState extends State<MyVerify> {
                       child: const Text(
                         "Telefon belgini üýtgetmek",
                         style: TextStyle(color: Colors.black),
-                      ))
                 ],
               )
             ],

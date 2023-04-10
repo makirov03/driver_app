@@ -8,7 +8,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     routes: {
       'phone': (context) => const MyPhone(),
-      'verify': (context) => const MyVerify()
+      'verify': (context) => const MyVerify(),
     },
   ));
 }

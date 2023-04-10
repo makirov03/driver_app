@@ -97,26 +97,22 @@ class _MyVerifyState extends State<MyVerify> {
               SizedBox(
                 width: double.infinity,
                 height: 45,
-                child: ElevatedButton(
-                    style: ElevatedButton.styleFrom(
-                        backgroundColor: Colors.green.shade600,
-                        shape: RoundedRectangleBorder(
-                    onPressed: () {},
-                    child: const Text("Tassykla"),),
               ),
               Row(
                 children: [
                   TextButton(
-                      onPressed: () {
-                        Navigator.pushNamedAndRemoveUntil(
-                          context,
-                          'phone',
-                          (route) => false,
-                        );
-                      },
-                      child: const Text(
-                        "Telefon belgini üýtgetmek",
-                        style: TextStyle(color: Colors.black),
+                    onPressed: () {
+                      Navigator.pushNamedAndRemoveUntil(
+                        context,
+                        'phone',
+                        (route) => false,
+                      );
+                    },
+                    child: const Text(
+                      "Telefon belgini üýtgetmek",
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ),
                 ],
               )
             ],
